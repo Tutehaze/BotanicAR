@@ -3,7 +3,7 @@
 body {
     background-color: #f2f2f2;
     background-size: cover;
-   background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     color: #333;
@@ -17,14 +17,14 @@ body {
 h2 {
     text-align: center;
     color: rgb(18, 87, 18) !important;
-    
+
 }
 
-.h2Index { 
+.h2Index {
     text-align: center;
     margin-top: 80px;
     margin-bottom: 20px;
-    
+
 
 }
 
@@ -59,9 +59,9 @@ header {
 }
 
 .fotoHistoria {
-    max-width: 100%; 
-    display: block; 
-    margin: 0 auto; 
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 /* FORM */
@@ -72,47 +72,47 @@ form {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  form label {
+}
+
+form label {
     font-weight: bold;
-  }
-  
-  form input[type="text"],
-  form input[type="email"],
-  form textarea {
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  form textarea {
+}
+
+form textarea {
     resize: vertical;
-  }
-  
-  form .botonC {
+}
+
+form .botonC {
     background-color: #556B2F;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  form .botonC:hover {
+}
+
+form .botonC:hover {
     background-color: #4CAF50;
-  }
-  
+}
+
 
 /* FOOTER */
 
 .footer {
-    text-align: center; 
-    margin-top: 20px; 
-  }
-  
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 /* PRODUCTOS */
 
@@ -128,9 +128,10 @@ figcaption {
     text-align: center;
     padding: 20px;
 }
+
 .palaNegra {
     width: 250px;
-display: block;
+    display: block;
 }
 
 
@@ -190,28 +191,28 @@ iframe {
 }
 
 .carousel-control-prev,
-        .carousel-control-next {
-            background-color: #4CAF50; /* Color verde */
-            width: 40px;
-            height: 40px;
-            top: 50%;
-            transform: translateY(-50%);
-            border-radius: 50%; /* Forma de círculo */
-            font-size: 24px;
-            color: #fff;
-        }
-        
-       
-        .carousel-control-prev-icon,
-        .carousel-control-next-icon {
-            background-color: transparent;
-            background-image: none;
-        }
+.carousel-control-next {
+    background-color: #4CAF50;
+    /* Color verde */
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    /* Forma de círculo */
+    font-size: 24px;
+    color: #fff;
+}
 
-       
-        .carousel-control-prev:hover,
-        .carousel-control-next:hover {
-            background-color: #45A049; 
-        }
 
-        
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+    background-image: none;
+}
+
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #45A049;
+}
