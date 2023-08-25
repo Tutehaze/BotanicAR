@@ -1,0 +1,153 @@
+/* BODY */
+body {
+    background-color: #f2f2f2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 0px;
+  }
+  
+  /* H2 */
+  h2 {
+    text-align: center;
+    color: rgb(18, 87, 18) !important;
+  }
+  
+  .h2Index {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  /* H1 */
+  h1 {
+    color: rgb(21, 94, 21) !important;
+  }
+  
+  .h1Index {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* HEADER */
+  header {
+    border-bottom: 1px black;
+    text-align: center;
+    .logo {
+      width: 60px;
+    }
+    .textoHistoria {
+      text-align: center;
+    }
+  }
+  
+  /* FORM */
+  form {
+    background-color: #dddddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    label {
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    textarea {
+      resize: vertical;
+    }
+    .botonC {
+      background-color: #556B2F;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: #4CAF50;
+      }
+    }
+  }
+  
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* PRODUCTOS */
+  figure {
+    border: 2px solid rgba(22, 93, 11, 0.489);
+    border-radius: 2px;
+  }
+  
+  figcaption {
+    background-color: rgba(22, 93, 11, 0.489);
+    color: bisque;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .palaNegra {
+    width: 250px;
+    display: block;
+  }
+  
+  .introHome {
+    text-align: center;
+  }
+  
+  iframe {
+    margin: auto;
+    display: block;
+  }
+  
+  /* BOOTSTRAP */
+  .navbar-nav .nav-link {
+    color: #FFFFFF;
+    transition: box-shadow 0.3s ease-in-out;
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 5px #32700a;
+    }
+  }
+  
+  /* CARROUSEL */
+  .carousel-item {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    background-color: #4CAF50; 
+    border-radius: 50%; 
+    &:hover {
+      background-color: #45A049;
+    }
+  }
