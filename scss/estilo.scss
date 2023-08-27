@@ -14,6 +14,9 @@ body {
   padding: 0px;
 }
 
+.main-container {
+  flex: 1; }
+
 /* H2 */
 h2 {
   text-align: center;
@@ -84,7 +87,10 @@ form {
 /* FOOTER */
 .footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /* PRODUCTOS */
@@ -173,4 +179,10 @@ iframe {
   p {
     margin-top: 1rem;
   }
+}
+
+.service-card {
+  margin-bottom: $spacing;
+  height: $cardHeight;
+  padding: $cardPadding;
 }
