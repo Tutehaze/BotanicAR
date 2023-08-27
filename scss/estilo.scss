@@ -152,3 +152,25 @@ iframe {
   }
 
 }
+
+
+/* Contenedores Service*/ 
+
+.service-card {
+  border: 1px solid #000000;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    margin-top: 1rem;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+}
