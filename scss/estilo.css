@@ -37,9 +37,11 @@ header {
   border-bottom: 1px black;
   text-align: center;
 }
+
 header .logo {
   width: 60px;
 }
+
 header .textoHistoria {
   text-align: center;
 }
@@ -51,9 +53,11 @@ form {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 form label {
   font-weight: bold;
 }
+
 form input[type=text],
 form input[type=email],
 form textarea {
@@ -63,9 +67,11 @@ form textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
 form textarea {
   resize: vertical;
 }
+
 form .botonC {
   background-color: #556B2F;
   color: #ffffff;
@@ -74,6 +80,7 @@ form .botonC {
   border-radius: 5px;
   cursor: pointer;
 }
+
 form .botonC:hover {
   background-color: #4CAF50;
 }
@@ -116,7 +123,9 @@ iframe {
   color: #FFFFFF;
   transition: box-shadow 0.3s ease-in-out;
 }
-.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
   box-shadow: 0 0 5px #32700a;
 }
 
@@ -147,6 +156,7 @@ iframe {
   background-color: #4CAF50;
   border-radius: 50%;
 }
+
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
   background-color: #45A049;

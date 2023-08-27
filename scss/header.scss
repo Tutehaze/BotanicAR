@@ -1,22 +1,24 @@
  /* HEADER */
  header {
-    border-bottom: 1px black;
-    text-align: center;
-    .logo {
-      width: 60px;
-    }
-    .textoHistoria {
-      text-align: center;
-    }
-  }
+   border-bottom: 1px black;
+   text-align: center;
 
-   /* NavBar */
-   .navbar-nav .nav-link {
-    color: #FFFFFF;
-    transition: box-shadow 0.3s ease-in-out;
-    &:hover,
-    &:focus {
-      box-shadow: 0 0 5px #32700a;
-    }
-  }
-  
+   .logo {
+     width: 60px;
+   }
+
+   .textoHistoria {
+     text-align: center;
+   }
+ }
+
+ /* NavBar */
+ .navbar-nav .nav-link {
+   color: #FFFFFF;
+   transition: box-shadow 0.3s ease-in-out;
+
+   &:hover,
+   &:focus {
+     box-shadow: 0 0 5px #32700a;
+   }
+ }
